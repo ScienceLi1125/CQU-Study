@@ -1,0 +1,30 @@
+# ----- REMOVE LINES ABOVE HERE --------------------------
+#
+# This license is valid from Sun Mar 11 06:21:33 UTC 2018.
+#
+# This is license NODELOCKED to HOSTID=ANY;
+# there is no need to run lmgrd for this license.
+#
+#
+# This is a permanent license generated on Sun Mar 11 06:21:33 UTC 2018
+INCREMENT SDK xilinxd 2019.03 permanent uncounted B148F3A429F9 \
+VENDOR_STRING=hqh_123,SDK,software,permanent,_211499825_0_0_901 \
+HOSTID=ANY ISSUER="Xilinx Inc" START=11-Mar-2018 TS_OK
+#
+# This is a permanent license generated on Sun Mar 11 06:21:33 UTC 2018
+INCREMENT Analyzer xilinxd 2019.03 permanent uncounted 271EE8CBEC12 \
+VENDOR_STRING=hqh_123,Analyzer,software,permanent,_211499825_0_0_065 \
+HOSTID=ANY ISSUER="Xilinx Inc" START=11-Mar-2018 TS_OK
+#
+# This is a permanent license generated on Sun Mar 11 06:21:33 UTC 2018
+INCREMENT HLS xilinxd 2019.03 permanent uncounted 8B9A1E4C1D21 \
+VENDOR_STRING=hqh_123,HLS,software,permanent,_211499825_0_0_523 \
+HOSTID=ANY ISSUER="Xilinx Inc" START=11-Mar-2018 TS_OK
+#
+# This is a permanent license generated on Sun Mar 11 06:21:33 UTC 2018
+INCREMENT V_WebPACK xilinxd 2019.03 permanent uncounted B1CEF6D55F98 \
+VENDOR_STRING=hqh_123,V_WebPACK,software,permanent,_211499825_0_0_825 \
+HOSTID=ANY ISSUER="Xilinx Inc" START=11-Mar-2018 TS_OK
+#
+# ----- REMOVE LINES BELOW HERE --------------------------
+
