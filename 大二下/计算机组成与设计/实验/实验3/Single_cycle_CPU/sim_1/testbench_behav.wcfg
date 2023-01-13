@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="870000001fs"></ZoomEndTime>
+      <Cursor1Time time="758732000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="109"></NameColumnWidth>
+      <ValueColumnWidth column_width="100"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="32" />
+   <wvobject fp_name="/testbench/dut/mp/gate16/gate1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/gate16/gate1/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/instr" type="array">
+      <obj_property name="ElementShortName">instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/readdata" type="array">
+      <obj_property name="ElementShortName">readdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/gate16/aluctrl" type="array">
+      <obj_property name="ElementShortName">aluctrl[2:0]</obj_property>
+      <obj_property name="ObjectShortName">aluctrl[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/gate16/memtoreg" type="logic">
+      <obj_property name="ElementShortName">memtoreg</obj_property>
+      <obj_property name="ObjectShortName">memtoreg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/gate16/alusrc" type="logic">
+      <obj_property name="ElementShortName">alusrc</obj_property>
+      <obj_property name="ObjectShortName">alusrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/gate16/regdst" type="logic">
+      <obj_property name="ElementShortName">regdst</obj_property>
+      <obj_property name="ObjectShortName">regdst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/gate16/regwrite" type="logic">
+      <obj_property name="ElementShortName">regwrite</obj_property>
+      <obj_property name="ObjectShortName">regwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/gate16/pcsrc" type="logic">
+      <obj_property name="ElementShortName">pcsrc</obj_property>
+      <obj_property name="ObjectShortName">pcsrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/gate16/jump" type="logic">
+      <obj_property name="ElementShortName">jump</obj_property>
+      <obj_property name="ObjectShortName">jump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/gate16/readdata" type="array">
+      <obj_property name="ElementShortName">readdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/gate16/IR" type="array">
+      <obj_property name="ElementShortName">IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/gate16/aluresult" type="array">
+      <obj_property name="ElementShortName">aluresult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluresult[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/gate16/writedata" type="array">
+      <obj_property name="ElementShortName">writedata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writedata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/gate16/pc_out" type="array">
+      <obj_property name="ElementShortName">pc_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/gate16/zero" type="logic">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/gate16/PC_1" type="array">
+      <obj_property name="ElementShortName">PC_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/gate16/PC_2" type="array">
+      <obj_property name="ElementShortName">PC_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/gate16/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/gate16/PCPlus4" type="array">
+      <obj_property name="ElementShortName">PCPlus4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCPlus4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/gate16/SignImm" type="array">
+      <obj_property name="ElementShortName">SignImm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SignImm[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/gate16/tmp" type="array">
+      <obj_property name="ElementShortName">tmp[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tmp[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/gate16/PCBranch_in" type="array">
+      <obj_property name="ElementShortName">PCBranch_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCBranch_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/gate16/PCBranch_out" type="array">
+      <obj_property name="ElementShortName">PCBranch_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCBranch_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/gate16/WriteReg" type="array">
+      <obj_property name="ElementShortName">WriteReg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteReg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/gate16/Result" type="array">
+      <obj_property name="ElementShortName">Result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/gate16/RD1" type="array">
+      <obj_property name="ElementShortName">RD1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/gate16/RD2" type="array">
+      <obj_property name="ElementShortName">RD2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/gate16/SrcB" type="array">
+      <obj_property name="ElementShortName">SrcB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SrcB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/mp/gate16/ALUResult" type="array">
+      <obj_property name="ElementShortName">ALUResult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResult[31:0]</obj_property>
+   </wvobject>
+</wave_config>
