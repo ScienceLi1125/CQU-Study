@@ -8,7 +8,7 @@
 
 总体设计思路如图所示，实现了连接SRAM接口的SoC系统，instr_ram与data_ram两个存储部件通过SRAM接口与CPU连接，从而可以上板运行程序，成为真正的片上系统。对于CPU核的设计分为两个主要部分，即控制模块controller和数据通路模块datapath。controller模块负责译码，输出datapath所需的控制信号，控制运算器alu以及整个CPU的运行。datapath模块负责连接CPU底层各部件的各个输入输出接口，包括取指、译码、执行、访存、写回五个阶段。其中比较重要的是冒险模块和异常处理模块，冒险模块负责处理数据冒险和控制冒险，用数据前推和阻塞解决相关的冒险；异常处理模块负责判断处理异常，即将取指、译码、执行、访存阶段发生的异常统一进行标记，在访存阶段进行处理，相应的CP0寄存器也放在了流水线的访存阶段。
 
-![总体架构图](https://img-blog.csdnimg.cn/994c9e1fb03b482785539f5fb7cad641.png#pic_center)
+<img src="https://img-blog.csdnimg.cn/994c9e1fb03b482785539f5fb7cad641.png?#pic_center" width=50%></img>
 
 ### 52条基础指令
 
@@ -107,7 +107,7 @@ MTC0和MFC0读写CP0寄存器，本设计不支持sel字段，因此直接赋0�
 ```
 
 #### 仿真与上板结果
-<img src="https://img-blog.csdnimg.cn/6c7ba555449d48158d2c08a90c9535dd.png?#pic_center" width=50%></img>
+<img src="https://img-blog.csdnimg.cn/6c7ba555449d48158d2c08a90c9535dd.png?#pic_center" width=90%></img>
 
 <img src="https://img-blog.csdnimg.cn/77d5748dc11349ebaa149c1d0b8fa6b8.jpeg?#pic_center" width=40%></img>
 
