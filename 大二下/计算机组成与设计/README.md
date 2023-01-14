@@ -4,7 +4,7 @@
  \- 计算机组成与设计：硬件/软件接口(第四版)，机械工业出版社
 
 #### 实验：
-环境：Vivado 2018.2 + Nexys4 DDR开发板
+环境：Vivado 2018.2 + Nexys4 DDR开发板（xc7a100tcsg324-1）
  1. ALU与流水线加法器;
  2. Controller;
  3. 单周期CPU;
