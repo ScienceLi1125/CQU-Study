@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../bin/libIR.a  CMakeFiles/IR.dir/src/ir/ir_function.cpp.o CMakeFiles/IR.dir/src/ir/ir_instruction.cpp.o CMakeFiles/IR.dir/src/ir/ir_operand.cpp.o CMakeFiles/IR.dir/src/ir/ir_operator.cpp.o CMakeFiles/IR.dir/src/ir/ir_program.cpp.o CMakeFiles/IR.dir/src/ir/type.cpp.o
+/usr/bin/ranlib ../bin/libIR.a

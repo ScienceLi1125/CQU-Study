@@ -1,0 +1,1210 @@
+{
+   "name" : "CompUnit",
+   "subtree" : [
+      {
+         "name" : "FuncDef",
+         "subtree" : [
+            {
+               "name" : "FuncType",
+               "subtree" : [
+                  {
+                     "name" : "Terminal",
+                     "type" : "INTTK",
+                     "value" : "int"
+                  }
+               ]
+            },
+            {
+               "name" : "Terminal",
+               "type" : "IDENFR",
+               "value" : "main"
+            },
+            {
+               "name" : "Terminal",
+               "type" : "LPARENT",
+               "value" : "("
+            },
+            {
+               "name" : "Terminal",
+               "type" : "RPARENT",
+               "value" : ")"
+            },
+            {
+               "name" : "Block",
+               "subtree" : [
+                  {
+                     "name" : "Terminal",
+                     "type" : "LBRACE",
+                     "value" : "{"
+                  },
+                  {
+                     "name" : "BlockItem",
+                     "subtree" : [
+                        {
+                           "name" : "Decl",
+                           "subtree" : [
+                              {
+                                 "name" : "VarDecl",
+                                 "subtree" : [
+                                    {
+                                       "name" : "BType",
+                                       "subtree" : [
+                                          {
+                                             "name" : "Terminal",
+                                             "type" : "INTTK",
+                                             "value" : "int"
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "name" : "VarDef",
+                                       "subtree" : [
+                                          {
+                                             "name" : "Terminal",
+                                             "type" : "IDENFR",
+                                             "value" : "a"
+                                          },
+                                          {
+                                             "name" : "Terminal",
+                                             "type" : "LBRACK",
+                                             "value" : "["
+                                          },
+                                          {
+                                             "name" : "ConstExp",
+                                             "subtree" : [
+                                                {
+                                                   "name" : "AddExp",
+                                                   "subtree" : [
+                                                      {
+                                                         "name" : "MulExp",
+                                                         "subtree" : [
+                                                            {
+                                                               "name" : "UnaryExp",
+                                                               "subtree" : [
+                                                                  {
+                                                                     "name" : "PrimaryExp",
+                                                                     "subtree" : [
+                                                                        {
+                                                                           "name" : "Number",
+                                                                           "subtree" : [
+                                                                              {
+                                                                                 "name" : "Terminal",
+                                                                                 "type" : "INTLTR",
+                                                                                 "value" : "4"
+                                                                              }
+                                                                           ]
+                                                                        }
+                                                                     ]
+                                                                  }
+                                                               ]
+                                                            }
+                                                         ]
+                                                      }
+                                                   ]
+                                                }
+                                             ]
+                                          },
+                                          {
+                                             "name" : "Terminal",
+                                             "type" : "RBRACK",
+                                             "value" : "]"
+                                          },
+                                          {
+                                             "name" : "Terminal",
+                                             "type" : "LBRACK",
+                                             "value" : "["
+                                          },
+                                          {
+                                             "name" : "ConstExp",
+                                             "subtree" : [
+                                                {
+                                                   "name" : "AddExp",
+                                                   "subtree" : [
+                                                      {
+                                                         "name" : "MulExp",
+                                                         "subtree" : [
+                                                            {
+                                                               "name" : "UnaryExp",
+                                                               "subtree" : [
+                                                                  {
+                                                                     "name" : "PrimaryExp",
+                                                                     "subtree" : [
+                                                                        {
+                                                                           "name" : "Number",
+                                                                           "subtree" : [
+                                                                              {
+                                                                                 "name" : "Terminal",
+                                                                                 "type" : "INTLTR",
+                                                                                 "value" : "2"
+                                                                              }
+                                                                           ]
+                                                                        }
+                                                                     ]
+                                                                  }
+                                                               ]
+                                                            }
+                                                         ]
+                                                      }
+                                                   ]
+                                                }
+                                             ]
+                                          },
+                                          {
+                                             "name" : "Terminal",
+                                             "type" : "RBRACK",
+                                             "value" : "]"
+                                          },
+                                          {
+                                             "name" : "Terminal",
+                                             "type" : "ASSIGN",
+                                             "value" : "="
+                                          },
+                                          {
+                                             "name" : "InitVal",
+                                             "subtree" : [
+                                                {
+                                                   "name" : "Terminal",
+                                                   "type" : "LBRACE",
+                                                   "value" : "{"
+                                                },
+                                                {
+                                                   "name" : "Terminal",
+                                                   "type" : "RBRACE",
+                                                   "value" : "}"
+                                                }
+                                             ]
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "name" : "Terminal",
+                                       "type" : "SEMICN",
+                                       "value" : ";"
+                                    }
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     "name" : "BlockItem",
+                     "subtree" : [
+                        {
+                           "name" : "Decl",
+                           "subtree" : [
+                              {
+                                 "name" : "VarDecl",
+                                 "subtree" : [
+                                    {
+                                       "name" : "BType",
+                                       "subtree" : [
+                                          {
+                                             "name" : "Terminal",
+                                             "type" : "INTTK",
+                                             "value" : "int"
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "name" : "VarDef",
+                                       "subtree" : [
+                                          {
+                                             "name" : "Terminal",
+                                             "type" : "IDENFR",
+                                             "value" : "b"
+                                          },
+                                          {
+                                             "name" : "Terminal",
+                                             "type" : "LBRACK",
+                                             "value" : "["
+                                          },
+                                          {
+                                             "name" : "ConstExp",
+                                             "subtree" : [
+                                                {
+                                                   "name" : "AddExp",
+                                                   "subtree" : [
+                                                      {
+                                                         "name" : "MulExp",
+                                                         "subtree" : [
+                                                            {
+                                                               "name" : "UnaryExp",
+                                                               "subtree" : [
+                                                                  {
+                                                                     "name" : "PrimaryExp",
+                                                                     "subtree" : [
+                                                                        {
+                                                                           "name" : "Number",
+                                                                           "subtree" : [
+                                                                              {
+                                                                                 "name" : "Terminal",
+                                                                                 "type" : "INTLTR",
+                                                                                 "value" : "4"
+                                                                              }
+                                                                           ]
+                                                                        }
+                                                                     ]
+                                                                  }
+                                                               ]
+                                                            }
+                                                         ]
+                                                      }
+                                                   ]
+                                                }
+                                             ]
+                                          },
+                                          {
+                                             "name" : "Terminal",
+                                             "type" : "RBRACK",
+                                             "value" : "]"
+                                          },
+                                          {
+                                             "name" : "Terminal",
+                                             "type" : "LBRACK",
+                                             "value" : "["
+                                          },
+                                          {
+                                             "name" : "ConstExp",
+                                             "subtree" : [
+                                                {
+                                                   "name" : "AddExp",
+                                                   "subtree" : [
+                                                      {
+                                                         "name" : "MulExp",
+                                                         "subtree" : [
+                                                            {
+                                                               "name" : "UnaryExp",
+                                                               "subtree" : [
+                                                                  {
+                                                                     "name" : "PrimaryExp",
+                                                                     "subtree" : [
+                                                                        {
+                                                                           "name" : "Number",
+                                                                           "subtree" : [
+                                                                              {
+                                                                                 "name" : "Terminal",
+                                                                                 "type" : "INTLTR",
+                                                                                 "value" : "2"
+                                                                              }
+                                                                           ]
+                                                                        }
+                                                                     ]
+                                                                  }
+                                                               ]
+                                                            }
+                                                         ]
+                                                      }
+                                                   ]
+                                                }
+                                             ]
+                                          },
+                                          {
+                                             "name" : "Terminal",
+                                             "type" : "RBRACK",
+                                             "value" : "]"
+                                          },
+                                          {
+                                             "name" : "Terminal",
+                                             "type" : "ASSIGN",
+                                             "value" : "="
+                                          },
+                                          {
+                                             "name" : "InitVal",
+                                             "subtree" : [
+                                                {
+                                                   "name" : "Terminal",
+                                                   "type" : "LBRACE",
+                                                   "value" : "{"
+                                                },
+                                                {
+                                                   "name" : "InitVal",
+                                                   "subtree" : [
+                                                      {
+                                                         "name" : "Exp",
+                                                         "subtree" : [
+                                                            {
+                                                               "name" : "AddExp",
+                                                               "subtree" : [
+                                                                  {
+                                                                     "name" : "MulExp",
+                                                                     "subtree" : [
+                                                                        {
+                                                                           "name" : "UnaryExp",
+                                                                           "subtree" : [
+                                                                              {
+                                                                                 "name" : "PrimaryExp",
+                                                                                 "subtree" : [
+                                                                                    {
+                                                                                       "name" : "Number",
+                                                                                       "subtree" : [
+                                                                                          {
+                                                                                             "name" : "Terminal",
+                                                                                             "type" : "INTLTR",
+                                                                                             "value" : "1"
+                                                                                          }
+                                                                                       ]
+                                                                                    }
+                                                                                 ]
+                                                                              }
+                                                                           ]
+                                                                        }
+                                                                     ]
+                                                                  }
+                                                               ]
+                                                            }
+                                                         ]
+                                                      }
+                                                   ]
+                                                },
+                                                {
+                                                   "name" : "Terminal",
+                                                   "type" : "COMMA",
+                                                   "value" : ","
+                                                },
+                                                {
+                                                   "name" : "InitVal",
+                                                   "subtree" : [
+                                                      {
+                                                         "name" : "Exp",
+                                                         "subtree" : [
+                                                            {
+                                                               "name" : "AddExp",
+                                                               "subtree" : [
+                                                                  {
+                                                                     "name" : "MulExp",
+                                                                     "subtree" : [
+                                                                        {
+                                                                           "name" : "UnaryExp",
+                                                                           "subtree" : [
+                                                                              {
+                                                                                 "name" : "PrimaryExp",
+                                                                                 "subtree" : [
+                                                                                    {
+                                                                                       "name" : "Number",
+                                                                                       "subtree" : [
+                                                                                          {
+                                                                                             "name" : "Terminal",
+                                                                                             "type" : "INTLTR",
+                                                                                             "value" : "2"
+                                                                                          }
+                                                                                       ]
+                                                                                    }
+                                                                                 ]
+                                                                              }
+                                                                           ]
+                                                                        }
+                                                                     ]
+                                                                  }
+                                                               ]
+                                                            }
+                                                         ]
+                                                      }
+                                                   ]
+                                                },
+                                                {
+                                                   "name" : "Terminal",
+                                                   "type" : "COMMA",
+                                                   "value" : ","
+                                                },
+                                                {
+                                                   "name" : "InitVal",
+                                                   "subtree" : [
+                                                      {
+                                                         "name" : "Exp",
+                                                         "subtree" : [
+                                                            {
+                                                               "name" : "AddExp",
+                                                               "subtree" : [
+                                                                  {
+                                                                     "name" : "MulExp",
+                                                                     "subtree" : [
+                                                                        {
+                                                                           "name" : "UnaryExp",
+                                                                           "subtree" : [
+                                                                              {
+                                                                                 "name" : "PrimaryExp",
+                                                                                 "subtree" : [
+                                                                                    {
+                                                                                       "name" : "Number",
+                                                                                       "subtree" : [
+                                                                                          {
+                                                                                             "name" : "Terminal",
+                                                                                             "type" : "INTLTR",
+                                                                                             "value" : "3"
+                                                                                          }
+                                                                                       ]
+                                                                                    }
+                                                                                 ]
+                                                                              }
+                                                                           ]
+                                                                        }
+                                                                     ]
+                                                                  }
+                                                               ]
+                                                            }
+                                                         ]
+                                                      }
+                                                   ]
+                                                },
+                                                {
+                                                   "name" : "Terminal",
+                                                   "type" : "COMMA",
+                                                   "value" : ","
+                                                },
+                                                {
+                                                   "name" : "InitVal",
+                                                   "subtree" : [
+                                                      {
+                                                         "name" : "Exp",
+                                                         "subtree" : [
+                                                            {
+                                                               "name" : "AddExp",
+                                                               "subtree" : [
+                                                                  {
+                                                                     "name" : "MulExp",
+                                                                     "subtree" : [
+                                                                        {
+                                                                           "name" : "UnaryExp",
+                                                                           "subtree" : [
+                                                                              {
+                                                                                 "name" : "PrimaryExp",
+                                                                                 "subtree" : [
+                                                                                    {
+                                                                                       "name" : "Number",
+                                                                                       "subtree" : [
+                                                                                          {
+                                                                                             "name" : "Terminal",
+                                                                                             "type" : "INTLTR",
+                                                                                             "value" : "4"
+                                                                                          }
+                                                                                       ]
+                                                                                    }
+                                                                                 ]
+                                                                              }
+                                                                           ]
+                                                                        }
+                                                                     ]
+                                                                  }
+                                                               ]
+                                                            }
+                                                         ]
+                                                      }
+                                                   ]
+                                                },
+                                                {
+                                                   "name" : "Terminal",
+                                                   "type" : "COMMA",
+                                                   "value" : ","
+                                                },
+                                                {
+                                                   "name" : "InitVal",
+                                                   "subtree" : [
+                                                      {
+                                                         "name" : "Exp",
+                                                         "subtree" : [
+                                                            {
+                                                               "name" : "AddExp",
+                                                               "subtree" : [
+                                                                  {
+                                                                     "name" : "MulExp",
+                                                                     "subtree" : [
+                                                                        {
+                                                                           "name" : "UnaryExp",
+                                                                           "subtree" : [
+                                                                              {
+                                                                                 "name" : "PrimaryExp",
+                                                                                 "subtree" : [
+                                                                                    {
+                                                                                       "name" : "Number",
+                                                                                       "subtree" : [
+                                                                                          {
+                                                                                             "name" : "Terminal",
+                                                                                             "type" : "INTLTR",
+                                                                                             "value" : "5"
+                                                                                          }
+                                                                                       ]
+                                                                                    }
+                                                                                 ]
+                                                                              }
+                                                                           ]
+                                                                        }
+                                                                     ]
+                                                                  }
+                                                               ]
+                                                            }
+                                                         ]
+                                                      }
+                                                   ]
+                                                },
+                                                {
+                                                   "name" : "Terminal",
+                                                   "type" : "COMMA",
+                                                   "value" : ","
+                                                },
+                                                {
+                                                   "name" : "InitVal",
+                                                   "subtree" : [
+                                                      {
+                                                         "name" : "Exp",
+                                                         "subtree" : [
+                                                            {
+                                                               "name" : "AddExp",
+                                                               "subtree" : [
+                                                                  {
+                                                                     "name" : "MulExp",
+                                                                     "subtree" : [
+                                                                        {
+                                                                           "name" : "UnaryExp",
+                                                                           "subtree" : [
+                                                                              {
+                                                                                 "name" : "PrimaryExp",
+                                                                                 "subtree" : [
+                                                                                    {
+                                                                                       "name" : "Number",
+                                                                                       "subtree" : [
+                                                                                          {
+                                                                                             "name" : "Terminal",
+                                                                                             "type" : "INTLTR",
+                                                                                             "value" : "6"
+                                                                                          }
+                                                                                       ]
+                                                                                    }
+                                                                                 ]
+                                                                              }
+                                                                           ]
+                                                                        }
+                                                                     ]
+                                                                  }
+                                                               ]
+                                                            }
+                                                         ]
+                                                      }
+                                                   ]
+                                                },
+                                                {
+                                                   "name" : "Terminal",
+                                                   "type" : "COMMA",
+                                                   "value" : ","
+                                                },
+                                                {
+                                                   "name" : "InitVal",
+                                                   "subtree" : [
+                                                      {
+                                                         "name" : "Exp",
+                                                         "subtree" : [
+                                                            {
+                                                               "name" : "AddExp",
+                                                               "subtree" : [
+                                                                  {
+                                                                     "name" : "MulExp",
+                                                                     "subtree" : [
+                                                                        {
+                                                                           "name" : "UnaryExp",
+                                                                           "subtree" : [
+                                                                              {
+                                                                                 "name" : "PrimaryExp",
+                                                                                 "subtree" : [
+                                                                                    {
+                                                                                       "name" : "Number",
+                                                                                       "subtree" : [
+                                                                                          {
+                                                                                             "name" : "Terminal",
+                                                                                             "type" : "INTLTR",
+                                                                                             "value" : "7"
+                                                                                          }
+                                                                                       ]
+                                                                                    }
+                                                                                 ]
+                                                                              }
+                                                                           ]
+                                                                        }
+                                                                     ]
+                                                                  }
+                                                               ]
+                                                            }
+                                                         ]
+                                                      }
+                                                   ]
+                                                },
+                                                {
+                                                   "name" : "Terminal",
+                                                   "type" : "COMMA",
+                                                   "value" : ","
+                                                },
+                                                {
+                                                   "name" : "InitVal",
+                                                   "subtree" : [
+                                                      {
+                                                         "name" : "Exp",
+                                                         "subtree" : [
+                                                            {
+                                                               "name" : "AddExp",
+                                                               "subtree" : [
+                                                                  {
+                                                                     "name" : "MulExp",
+                                                                     "subtree" : [
+                                                                        {
+                                                                           "name" : "UnaryExp",
+                                                                           "subtree" : [
+                                                                              {
+                                                                                 "name" : "PrimaryExp",
+                                                                                 "subtree" : [
+                                                                                    {
+                                                                                       "name" : "Number",
+                                                                                       "subtree" : [
+                                                                                          {
+                                                                                             "name" : "Terminal",
+                                                                                             "type" : "INTLTR",
+                                                                                             "value" : "8"
+                                                                                          }
+                                                                                       ]
+                                                                                    }
+                                                                                 ]
+                                                                              }
+                                                                           ]
+                                                                        }
+                                                                     ]
+                                                                  }
+                                                               ]
+                                                            }
+                                                         ]
+                                                      }
+                                                   ]
+                                                },
+                                                {
+                                                   "name" : "Terminal",
+                                                   "type" : "RBRACE",
+                                                   "value" : "}"
+                                                }
+                                             ]
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "name" : "Terminal",
+                                       "type" : "SEMICN",
+                                       "value" : ";"
+                                    }
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     "name" : "BlockItem",
+                     "subtree" : [
+                        {
+                           "name" : "Stmt",
+                           "subtree" : [
+                              {
+                                 "name" : "Terminal",
+                                 "type" : "RETURNTK",
+                                 "value" : "return"
+                              },
+                              {
+                                 "name" : "Exp",
+                                 "subtree" : [
+                                    {
+                                       "name" : "AddExp",
+                                       "subtree" : [
+                                          {
+                                             "name" : "MulExp",
+                                             "subtree" : [
+                                                {
+                                                   "name" : "UnaryExp",
+                                                   "subtree" : [
+                                                      {
+                                                         "name" : "PrimaryExp",
+                                                         "subtree" : [
+                                                            {
+                                                               "name" : "LVal",
+                                                               "subtree" : [
+                                                                  {
+                                                                     "name" : "Terminal",
+                                                                     "type" : "IDENFR",
+                                                                     "value" : "b"
+                                                                  },
+                                                                  {
+                                                                     "name" : "Terminal",
+                                                                     "type" : "LBRACK",
+                                                                     "value" : "["
+                                                                  },
+                                                                  {
+                                                                     "name" : "Exp",
+                                                                     "subtree" : [
+                                                                        {
+                                                                           "name" : "AddExp",
+                                                                           "subtree" : [
+                                                                              {
+                                                                                 "name" : "MulExp",
+                                                                                 "subtree" : [
+                                                                                    {
+                                                                                       "name" : "UnaryExp",
+                                                                                       "subtree" : [
+                                                                                          {
+                                                                                             "name" : "PrimaryExp",
+                                                                                             "subtree" : [
+                                                                                                {
+                                                                                                   "name" : "Number",
+                                                                                                   "subtree" : [
+                                                                                                      {
+                                                                                                         "name" : "Terminal",
+                                                                                                         "type" : "INTLTR",
+                                                                                                         "value" : "3"
+                                                                                                      }
+                                                                                                   ]
+                                                                                                }
+                                                                                             ]
+                                                                                          }
+                                                                                       ]
+                                                                                    }
+                                                                                 ]
+                                                                              }
+                                                                           ]
+                                                                        }
+                                                                     ]
+                                                                  },
+                                                                  {
+                                                                     "name" : "Terminal",
+                                                                     "type" : "RBRACK",
+                                                                     "value" : "]"
+                                                                  },
+                                                                  {
+                                                                     "name" : "Terminal",
+                                                                     "type" : "LBRACK",
+                                                                     "value" : "["
+                                                                  },
+                                                                  {
+                                                                     "name" : "Exp",
+                                                                     "subtree" : [
+                                                                        {
+                                                                           "name" : "AddExp",
+                                                                           "subtree" : [
+                                                                              {
+                                                                                 "name" : "MulExp",
+                                                                                 "subtree" : [
+                                                                                    {
+                                                                                       "name" : "UnaryExp",
+                                                                                       "subtree" : [
+                                                                                          {
+                                                                                             "name" : "PrimaryExp",
+                                                                                             "subtree" : [
+                                                                                                {
+                                                                                                   "name" : "Number",
+                                                                                                   "subtree" : [
+                                                                                                      {
+                                                                                                         "name" : "Terminal",
+                                                                                                         "type" : "INTLTR",
+                                                                                                         "value" : "1"
+                                                                                                      }
+                                                                                                   ]
+                                                                                                }
+                                                                                             ]
+                                                                                          }
+                                                                                       ]
+                                                                                    }
+                                                                                 ]
+                                                                              }
+                                                                           ]
+                                                                        }
+                                                                     ]
+                                                                  },
+                                                                  {
+                                                                     "name" : "Terminal",
+                                                                     "type" : "RBRACK",
+                                                                     "value" : "]"
+                                                                  }
+                                                               ]
+                                                            }
+                                                         ]
+                                                      }
+                                                   ]
+                                                }
+                                             ]
+                                          },
+                                          {
+                                             "name" : "Terminal",
+                                             "type" : "PLUS",
+                                             "value" : "+"
+                                          },
+                                          {
+                                             "name" : "MulExp",
+                                             "subtree" : [
+                                                {
+                                                   "name" : "UnaryExp",
+                                                   "subtree" : [
+                                                      {
+                                                         "name" : "PrimaryExp",
+                                                         "subtree" : [
+                                                            {
+                                                               "name" : "LVal",
+                                                               "subtree" : [
+                                                                  {
+                                                                     "name" : "Terminal",
+                                                                     "type" : "IDENFR",
+                                                                     "value" : "b"
+                                                                  },
+                                                                  {
+                                                                     "name" : "Terminal",
+                                                                     "type" : "LBRACK",
+                                                                     "value" : "["
+                                                                  },
+                                                                  {
+                                                                     "name" : "Exp",
+                                                                     "subtree" : [
+                                                                        {
+                                                                           "name" : "AddExp",
+                                                                           "subtree" : [
+                                                                              {
+                                                                                 "name" : "MulExp",
+                                                                                 "subtree" : [
+                                                                                    {
+                                                                                       "name" : "UnaryExp",
+                                                                                       "subtree" : [
+                                                                                          {
+                                                                                             "name" : "PrimaryExp",
+                                                                                             "subtree" : [
+                                                                                                {
+                                                                                                   "name" : "Number",
+                                                                                                   "subtree" : [
+                                                                                                      {
+                                                                                                         "name" : "Terminal",
+                                                                                                         "type" : "INTLTR",
+                                                                                                         "value" : "0"
+                                                                                                      }
+                                                                                                   ]
+                                                                                                }
+                                                                                             ]
+                                                                                          }
+                                                                                       ]
+                                                                                    }
+                                                                                 ]
+                                                                              }
+                                                                           ]
+                                                                        }
+                                                                     ]
+                                                                  },
+                                                                  {
+                                                                     "name" : "Terminal",
+                                                                     "type" : "RBRACK",
+                                                                     "value" : "]"
+                                                                  },
+                                                                  {
+                                                                     "name" : "Terminal",
+                                                                     "type" : "LBRACK",
+                                                                     "value" : "["
+                                                                  },
+                                                                  {
+                                                                     "name" : "Exp",
+                                                                     "subtree" : [
+                                                                        {
+                                                                           "name" : "AddExp",
+                                                                           "subtree" : [
+                                                                              {
+                                                                                 "name" : "MulExp",
+                                                                                 "subtree" : [
+                                                                                    {
+                                                                                       "name" : "UnaryExp",
+                                                                                       "subtree" : [
+                                                                                          {
+                                                                                             "name" : "PrimaryExp",
+                                                                                             "subtree" : [
+                                                                                                {
+                                                                                                   "name" : "Number",
+                                                                                                   "subtree" : [
+                                                                                                      {
+                                                                                                         "name" : "Terminal",
+                                                                                                         "type" : "INTLTR",
+                                                                                                         "value" : "0"
+                                                                                                      }
+                                                                                                   ]
+                                                                                                }
+                                                                                             ]
+                                                                                          }
+                                                                                       ]
+                                                                                    }
+                                                                                 ]
+                                                                              }
+                                                                           ]
+                                                                        }
+                                                                     ]
+                                                                  },
+                                                                  {
+                                                                     "name" : "Terminal",
+                                                                     "type" : "RBRACK",
+                                                                     "value" : "]"
+                                                                  }
+                                                               ]
+                                                            }
+                                                         ]
+                                                      }
+                                                   ]
+                                                }
+                                             ]
+                                          },
+                                          {
+                                             "name" : "Terminal",
+                                             "type" : "PLUS",
+                                             "value" : "+"
+                                          },
+                                          {
+                                             "name" : "MulExp",
+                                             "subtree" : [
+                                                {
+                                                   "name" : "UnaryExp",
+                                                   "subtree" : [
+                                                      {
+                                                         "name" : "PrimaryExp",
+                                                         "subtree" : [
+                                                            {
+                                                               "name" : "LVal",
+                                                               "subtree" : [
+                                                                  {
+                                                                     "name" : "Terminal",
+                                                                     "type" : "IDENFR",
+                                                                     "value" : "b"
+                                                                  },
+                                                                  {
+                                                                     "name" : "Terminal",
+                                                                     "type" : "LBRACK",
+                                                                     "value" : "["
+                                                                  },
+                                                                  {
+                                                                     "name" : "Exp",
+                                                                     "subtree" : [
+                                                                        {
+                                                                           "name" : "AddExp",
+                                                                           "subtree" : [
+                                                                              {
+                                                                                 "name" : "MulExp",
+                                                                                 "subtree" : [
+                                                                                    {
+                                                                                       "name" : "UnaryExp",
+                                                                                       "subtree" : [
+                                                                                          {
+                                                                                             "name" : "PrimaryExp",
+                                                                                             "subtree" : [
+                                                                                                {
+                                                                                                   "name" : "Number",
+                                                                                                   "subtree" : [
+                                                                                                      {
+                                                                                                         "name" : "Terminal",
+                                                                                                         "type" : "INTLTR",
+                                                                                                         "value" : "0"
+                                                                                                      }
+                                                                                                   ]
+                                                                                                }
+                                                                                             ]
+                                                                                          }
+                                                                                       ]
+                                                                                    }
+                                                                                 ]
+                                                                              }
+                                                                           ]
+                                                                        }
+                                                                     ]
+                                                                  },
+                                                                  {
+                                                                     "name" : "Terminal",
+                                                                     "type" : "RBRACK",
+                                                                     "value" : "]"
+                                                                  },
+                                                                  {
+                                                                     "name" : "Terminal",
+                                                                     "type" : "LBRACK",
+                                                                     "value" : "["
+                                                                  },
+                                                                  {
+                                                                     "name" : "Exp",
+                                                                     "subtree" : [
+                                                                        {
+                                                                           "name" : "AddExp",
+                                                                           "subtree" : [
+                                                                              {
+                                                                                 "name" : "MulExp",
+                                                                                 "subtree" : [
+                                                                                    {
+                                                                                       "name" : "UnaryExp",
+                                                                                       "subtree" : [
+                                                                                          {
+                                                                                             "name" : "PrimaryExp",
+                                                                                             "subtree" : [
+                                                                                                {
+                                                                                                   "name" : "Number",
+                                                                                                   "subtree" : [
+                                                                                                      {
+                                                                                                         "name" : "Terminal",
+                                                                                                         "type" : "INTLTR",
+                                                                                                         "value" : "1"
+                                                                                                      }
+                                                                                                   ]
+                                                                                                }
+                                                                                             ]
+                                                                                          }
+                                                                                       ]
+                                                                                    }
+                                                                                 ]
+                                                                              }
+                                                                           ]
+                                                                        }
+                                                                     ]
+                                                                  },
+                                                                  {
+                                                                     "name" : "Terminal",
+                                                                     "type" : "RBRACK",
+                                                                     "value" : "]"
+                                                                  }
+                                                               ]
+                                                            }
+                                                         ]
+                                                      }
+                                                   ]
+                                                }
+                                             ]
+                                          },
+                                          {
+                                             "name" : "Terminal",
+                                             "type" : "PLUS",
+                                             "value" : "+"
+                                          },
+                                          {
+                                             "name" : "MulExp",
+                                             "subtree" : [
+                                                {
+                                                   "name" : "UnaryExp",
+                                                   "subtree" : [
+                                                      {
+                                                         "name" : "PrimaryExp",
+                                                         "subtree" : [
+                                                            {
+                                                               "name" : "LVal",
+                                                               "subtree" : [
+                                                                  {
+                                                                     "name" : "Terminal",
+                                                                     "type" : "IDENFR",
+                                                                     "value" : "b"
+                                                                  },
+                                                                  {
+                                                                     "name" : "Terminal",
+                                                                     "type" : "LBRACK",
+                                                                     "value" : "["
+                                                                  },
+                                                                  {
+                                                                     "name" : "Exp",
+                                                                     "subtree" : [
+                                                                        {
+                                                                           "name" : "AddExp",
+                                                                           "subtree" : [
+                                                                              {
+                                                                                 "name" : "MulExp",
+                                                                                 "subtree" : [
+                                                                                    {
+                                                                                       "name" : "UnaryExp",
+                                                                                       "subtree" : [
+                                                                                          {
+                                                                                             "name" : "PrimaryExp",
+                                                                                             "subtree" : [
+                                                                                                {
+                                                                                                   "name" : "Number",
+                                                                                                   "subtree" : [
+                                                                                                      {
+                                                                                                         "name" : "Terminal",
+                                                                                                         "type" : "INTLTR",
+                                                                                                         "value" : "2"
+                                                                                                      }
+                                                                                                   ]
+                                                                                                }
+                                                                                             ]
+                                                                                          }
+                                                                                       ]
+                                                                                    }
+                                                                                 ]
+                                                                              }
+                                                                           ]
+                                                                        }
+                                                                     ]
+                                                                  },
+                                                                  {
+                                                                     "name" : "Terminal",
+                                                                     "type" : "RBRACK",
+                                                                     "value" : "]"
+                                                                  },
+                                                                  {
+                                                                     "name" : "Terminal",
+                                                                     "type" : "LBRACK",
+                                                                     "value" : "["
+                                                                  },
+                                                                  {
+                                                                     "name" : "Exp",
+                                                                     "subtree" : [
+                                                                        {
+                                                                           "name" : "AddExp",
+                                                                           "subtree" : [
+                                                                              {
+                                                                                 "name" : "MulExp",
+                                                                                 "subtree" : [
+                                                                                    {
+                                                                                       "name" : "UnaryExp",
+                                                                                       "subtree" : [
+                                                                                          {
+                                                                                             "name" : "PrimaryExp",
+                                                                                             "subtree" : [
+                                                                                                {
+                                                                                                   "name" : "Number",
+                                                                                                   "subtree" : [
+                                                                                                      {
+                                                                                                         "name" : "Terminal",
+                                                                                                         "type" : "INTLTR",
+                                                                                                         "value" : "0"
+                                                                                                      }
+                                                                                                   ]
+                                                                                                }
+                                                                                             ]
+                                                                                          }
+                                                                                       ]
+                                                                                    }
+                                                                                 ]
+                                                                              }
+                                                                           ]
+                                                                        }
+                                                                     ]
+                                                                  },
+                                                                  {
+                                                                     "name" : "Terminal",
+                                                                     "type" : "RBRACK",
+                                                                     "value" : "]"
+                                                                  }
+                                                               ]
+                                                            }
+                                                         ]
+                                                      }
+                                                   ]
+                                                }
+                                             ]
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              },
+                              {
+                                 "name" : "Terminal",
+                                 "type" : "SEMICN",
+                                 "value" : ";"
+                              }
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     "name" : "Terminal",
+                     "type" : "RBRACE",
+                     "value" : "}"
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

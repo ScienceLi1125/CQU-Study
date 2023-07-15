@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../bin/libTools.a  CMakeFiles/Tools.dir/src/tools/ir_executor.cpp.o
+/usr/bin/ranlib ../bin/libTools.a

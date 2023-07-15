@@ -1,0 +1,5 @@
+D:/Lab1/build/CMakeFiles/jsoncpp.dir
+D:/Lab1/build/CMakeFiles/Front.dir
+D:/Lab1/build/CMakeFiles/compiler.dir
+D:/Lab1/build/CMakeFiles/edit_cache.dir
+D:/Lab1/build/CMakeFiles/rebuild_cache.dir

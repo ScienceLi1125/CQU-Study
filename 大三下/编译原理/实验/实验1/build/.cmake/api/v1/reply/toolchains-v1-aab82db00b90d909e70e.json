@@ -1,0 +1,135 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/KSoftware/MindW64/w64devkit-1.16.1/w64devkit/lib/gcc/x86_64-w64-mingw32/12.2.0/include",
+						"D:/KSoftware/MindW64/w64devkit-1.16.1/w64devkit/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed",
+						"D:/KSoftware/MindW64/w64devkit-1.16.1/w64devkit/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"D:/KSoftware/MindW64/w64devkit-1.16.1/w64devkit/lib/gcc/x86_64-w64-mingw32/12.2.0",
+						"D:/KSoftware/MindW64/w64devkit-1.16.1/w64devkit/lib/gcc",
+						"D:/KSoftware/MindW64/w64devkit-1.16.1/w64devkit/x86_64-w64-mingw32/lib",
+						"D:/KSoftware/MindW64/w64devkit-1.16.1/w64devkit/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32"
+					]
+				},
+				"path" : "D:/KSoftware/MindW64/w64devkit-1.16.1/w64devkit/bin/gcc.exe",
+				"version" : "12.2.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/KSoftware/MindW64/w64devkit-1.16.1/w64devkit/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++",
+						"D:/KSoftware/MindW64/w64devkit-1.16.1/w64devkit/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32",
+						"D:/KSoftware/MindW64/w64devkit-1.16.1/w64devkit/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/backward",
+						"D:/KSoftware/MindW64/w64devkit-1.16.1/w64devkit/lib/gcc/x86_64-w64-mingw32/12.2.0/include",
+						"D:/KSoftware/MindW64/w64devkit-1.16.1/w64devkit/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed",
+						"D:/KSoftware/MindW64/w64devkit-1.16.1/w64devkit/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"D:/KSoftware/MindW64/w64devkit-1.16.1/w64devkit/lib/gcc/x86_64-w64-mingw32/12.2.0",
+						"D:/KSoftware/MindW64/w64devkit-1.16.1/w64devkit/lib/gcc",
+						"D:/KSoftware/MindW64/w64devkit-1.16.1/w64devkit/x86_64-w64-mingw32/lib",
+						"D:/KSoftware/MindW64/w64devkit-1.16.1/w64devkit/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32"
+					]
+				},
+				"path" : "D:/KSoftware/MindW64/w64devkit-1.16.1/w64devkit/bin/g++.exe",
+				"version" : "12.2.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "D:/KSoftware/MindW64/w64devkit-1.16.1/w64devkit/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

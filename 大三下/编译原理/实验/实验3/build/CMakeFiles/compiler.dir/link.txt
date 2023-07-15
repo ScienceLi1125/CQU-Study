@@ -1,0 +1,1 @@
+/usr/bin/x86_64-linux-gnu-g++-7  -Wall   CMakeFiles/compiler.dir/main.cpp.o  -o ../bin/compiler  -L/coursegrader/./lib -Wl,-rpath,/coursegrader/./lib ../bin/libBackend.a -lTools ../bin/libFront.a -lIR ../bin/libjsoncpp.a 

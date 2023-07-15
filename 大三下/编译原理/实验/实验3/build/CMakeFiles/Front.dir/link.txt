@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../bin/libFront.a  CMakeFiles/Front.dir/src/front/abstract_syntax_tree.cpp.o CMakeFiles/Front.dir/src/front/lexical.cpp.o CMakeFiles/Front.dir/src/front/semantic.cpp.o CMakeFiles/Front.dir/src/front/syntax.cpp.o CMakeFiles/Front.dir/src/front/token.cpp.o
+/usr/bin/ranlib ../bin/libFront.a

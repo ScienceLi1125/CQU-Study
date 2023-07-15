@@ -1,0 +1,32 @@
+[
+{
+  "directory": "D:/Lab1/build",
+  "command": "D:/KSoftware/MindW64/w64devkit-1.16.1/w64devkit/bin/g++.exe  @CMakeFiles/jsoncpp.dir/includes_CXX.rsp -Wall -g -std=gnu++14 -o CMakeFiles/jsoncpp.dir/src/third_party/jsoncpp/jsoncpp.cpp.obj -c D:/Lab1/src/third_party/jsoncpp/jsoncpp.cpp",
+  "file": "D:/Lab1/src/third_party/jsoncpp/jsoncpp.cpp"
+},
+{
+  "directory": "D:/Lab1/build",
+  "command": "D:/KSoftware/MindW64/w64devkit-1.16.1/w64devkit/bin/g++.exe  @CMakeFiles/Front.dir/includes_CXX.rsp -Wall -g -std=gnu++14 -o CMakeFiles/Front.dir/src/front/abstract_syntax_tree.cpp.obj -c D:/Lab1/src/front/abstract_syntax_tree.cpp",
+  "file": "D:/Lab1/src/front/abstract_syntax_tree.cpp"
+},
+{
+  "directory": "D:/Lab1/build",
+  "command": "D:/KSoftware/MindW64/w64devkit-1.16.1/w64devkit/bin/g++.exe  @CMakeFiles/Front.dir/includes_CXX.rsp -Wall -g -std=gnu++14 -o CMakeFiles/Front.dir/src/front/lexical.cpp.obj -c D:/Lab1/src/front/lexical.cpp",
+  "file": "D:/Lab1/src/front/lexical.cpp"
+},
+{
+  "directory": "D:/Lab1/build",
+  "command": "D:/KSoftware/MindW64/w64devkit-1.16.1/w64devkit/bin/g++.exe  @CMakeFiles/Front.dir/includes_CXX.rsp -Wall -g -std=gnu++14 -o CMakeFiles/Front.dir/src/front/syntax.cpp.obj -c D:/Lab1/src/front/syntax.cpp",
+  "file": "D:/Lab1/src/front/syntax.cpp"
+},
+{
+  "directory": "D:/Lab1/build",
+  "command": "D:/KSoftware/MindW64/w64devkit-1.16.1/w64devkit/bin/g++.exe  @CMakeFiles/Front.dir/includes_CXX.rsp -Wall -g -std=gnu++14 -o CMakeFiles/Front.dir/src/front/token.cpp.obj -c D:/Lab1/src/front/token.cpp",
+  "file": "D:/Lab1/src/front/token.cpp"
+},
+{
+  "directory": "D:/Lab1/build",
+  "command": "D:/KSoftware/MindW64/w64devkit-1.16.1/w64devkit/bin/g++.exe  @CMakeFiles/compiler.dir/includes_CXX.rsp -Wall -g -std=gnu++14 -o CMakeFiles/compiler.dir/main.cpp.obj -c D:/Lab1/main.cpp",
+  "file": "D:/Lab1/main.cpp"
+}
+]

@@ -1,0 +1,2 @@
+D:\KSoftware\MindW64\w64devkit-1.16.1\w64devkit\bin\ar.exe qc D:\Lab1\bin\libFront.a CMakeFiles/Front.dir/src/front/abstract_syntax_tree.cpp.obj CMakeFiles/Front.dir/src/front/lexical.cpp.obj CMakeFiles/Front.dir/src/front/syntax.cpp.obj CMakeFiles/Front.dir/src/front/token.cpp.obj
+D:\KSoftware\MindW64\w64devkit-1.16.1\w64devkit\bin\ranlib.exe D:\Lab1\bin\libFront.a

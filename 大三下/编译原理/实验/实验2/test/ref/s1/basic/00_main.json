@@ -1,0 +1,105 @@
+{
+   "name" : "CompUnit",
+   "subtree" : [
+      {
+         "name" : "FuncDef",
+         "subtree" : [
+            {
+               "name" : "FuncType",
+               "subtree" : [
+                  {
+                     "name" : "Terminal",
+                     "type" : "INTTK",
+                     "value" : "int"
+                  }
+               ]
+            },
+            {
+               "name" : "Terminal",
+               "type" : "IDENFR",
+               "value" : "main"
+            },
+            {
+               "name" : "Terminal",
+               "type" : "LPARENT",
+               "value" : "("
+            },
+            {
+               "name" : "Terminal",
+               "type" : "RPARENT",
+               "value" : ")"
+            },
+            {
+               "name" : "Block",
+               "subtree" : [
+                  {
+                     "name" : "Terminal",
+                     "type" : "LBRACE",
+                     "value" : "{"
+                  },
+                  {
+                     "name" : "BlockItem",
+                     "subtree" : [
+                        {
+                           "name" : "Stmt",
+                           "subtree" : [
+                              {
+                                 "name" : "Terminal",
+                                 "type" : "RETURNTK",
+                                 "value" : "return"
+                              },
+                              {
+                                 "name" : "Exp",
+                                 "subtree" : [
+                                    {
+                                       "name" : "AddExp",
+                                       "subtree" : [
+                                          {
+                                             "name" : "MulExp",
+                                             "subtree" : [
+                                                {
+                                                   "name" : "UnaryExp",
+                                                   "subtree" : [
+                                                      {
+                                                         "name" : "PrimaryExp",
+                                                         "subtree" : [
+                                                            {
+                                                               "name" : "Number",
+                                                               "subtree" : [
+                                                                  {
+                                                                     "name" : "Terminal",
+                                                                     "type" : "INTLTR",
+                                                                     "value" : "3"
+                                                                  }
+                                                               ]
+                                                            }
+                                                         ]
+                                                      }
+                                                   ]
+                                                }
+                                             ]
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              },
+                              {
+                                 "name" : "Terminal",
+                                 "type" : "SEMICN",
+                                 "value" : ";"
+                              }
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     "name" : "Terminal",
+                     "type" : "RBRACE",
+                     "value" : "}"
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}
