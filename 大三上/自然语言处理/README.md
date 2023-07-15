@@ -15,7 +15,7 @@
 
 #### 期末复习：
  1. 复习索引；
- 2. 回试卷忆版 @ [VayneDuan](https://github.com/VayneDuan/cqu-cs-learning-materials/tree/main/自然语言处理)
+ 2. 试卷回忆版 @ [VayneDuan](https://github.com/VayneDuan/cqu-cs-learning-materials/tree/main/自然语言处理)
  3. [word2vec](https://blog.csdn.net/vincent_duan/article/details/117967110) 补充
  4. [CRF](https://blog.csdn.net/algorithmPro/article/details/103790338) 补充
  5. [HMM vs CRF](https://blog.csdn.net/sinat_28015305/article/details/109355671) 补充
