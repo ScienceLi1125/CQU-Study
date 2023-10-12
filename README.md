@@ -40,3 +40,9 @@
  - 专业综合设计
 
 ## 推免
+
+<hr />
+
+如果学有余力，推荐自学：
+ - [计算机教育中缺失的一课](https://missing-semester-cn.github.io/)
+ - [CS自学指南](https://csdiy.wiki/)
